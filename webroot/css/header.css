@@ -1,8 +1,9 @@
-body > heder {
+body > header h1 {
+  font-family: "Lato-Bold";
+  font-weight: 700;
+  font-style: italic;
   font-size: 48px;
-  font-family: ;
-  color: #5282F0;
   line-height: 60px;
-  font-style: normal;
-  font-weight: normal;
+  color: #5282F0;
+
 }
