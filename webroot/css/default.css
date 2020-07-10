@@ -1,7 +1,10 @@
 html {
-  font-family: Lato;
+  font-family: "Lato";
 }
 
 body {
-  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 1.5rem;
 }
+
