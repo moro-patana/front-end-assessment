@@ -1,0 +1,47 @@
+
+.sport_page__heading--info {
+  font-family: "Lato-Regular";
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  line-height: 40px;
+  color: #333333;;
+
+}
+
+.sport_page__heading--description {
+  font-family: "Lato-Regular";
+  font-weight: normal;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  line-height: 23px;
+  color: #4F4F4F;
+
+}
+.sport_page__wrapper_button {
+  width: 145.69px;
+  height: 44px;
+  border-radius: 10px;
+  padding-right: 1rem;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.app_store {
+  background-image: url("../img/apple_store.svg");
+}
+
+.google_play {
+  background-image: url("../img/google_play.svg");
+}
+
+@media(min-width:768px) {
+  main > header {
+    background-image: url("../img/bg_header.png");
+    background-repeat: no-repeat;
+    background-size: 146px;
+    background-position: right;
+  }
+
+}
