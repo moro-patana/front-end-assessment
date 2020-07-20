@@ -2,9 +2,9 @@ html {
   font-family: "Lato";
 }
 
-body {
-  width: 100%;
-  height: auto;
-  padding: 1.5rem;
-}
 
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F4F6F9;
+}
