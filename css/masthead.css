@@ -4,6 +4,7 @@
   font-weight: bold;
   line-height: 40px;
   color: #333333;
+  margin-block-start: 8rem;
 
 }
 
@@ -13,25 +14,27 @@
 }
 
 
- @media(min-width:768px) {
-  /* main > header {
-    display: grid;
-    grid-template-columns: 44% 56%;
-    } */
-
-  .masthead {
-    width: 546px;
-    height: 96px;
+ /* @media(min-width:768px) {
+   header {
+     max-width: 1440px;
+     max-height: 665px;
+     margin: auto;
+   }
+  /* .masthead {
+    max-width: 546px;
+    max-height: 96px;
     }
   .heading_description {
-    width: 453px;
-    height: 52px;
+    max-width: 453px;
+    max-height: 52px;
+  } */
+
+  /* .figure img {
+    display: block; */
+    /* float: right;
+    margin-block-start: -34.5rem;
+    margin-inline-start: -20rem; */
   }
 
-  .figure img {
-    display: block;
-    float: right;
-    margin-block-start: -18.5rem;
-  }
 
-}
+} */
