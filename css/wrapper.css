@@ -1,9 +1,0 @@
-.app_download {
-  display: flex;
-  flex-direction: row;
-  margin-block-start: 3rem;
-}
-
-.app_download a:nth-of-type(2) {
-  margin-inline-start: 2rem;
-}
