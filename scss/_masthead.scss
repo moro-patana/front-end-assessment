@@ -1,9 +1,11 @@
+@import "variables";
+
 .masthead {
   font-size: 36px;
   font-style: normal;
   font-weight: bold;
   line-height: 40px;
-  color: #333333;
+  color: $heading-color;
   margin-block-start: 8rem;
 
 }
