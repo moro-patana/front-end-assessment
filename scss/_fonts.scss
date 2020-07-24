@@ -1,17 +1,18 @@
+@import "variables";
 @font-face {
-  font-style: normal;
-  font-family: "Lato";
-  font-weight: 700;
+  font-style: $normal-style;
+  font-family: $font-family;
+  font-weight: $bold-size;
   src: local("Lato-Bold"),
        local("Lato-Bold"),
-       url('../fonts/lato-bold.woff2') format('woff2'),
-       url('../fonts/lato-bold.woff') format('woff');
+       url($font-path + "lato-bold.woff2") format('woff2'),
+       url($font-path + "lato-bold.woff") format('woff');
 }
 
 @font-face {
-  font-style: normal;
+  font-style: $normal-style;
   font-family: "Lato";
-  font-weight: 400;
+  font-weight: $normal-size;
   src: local("Lato-Regular"),
        local("Lato-Regular"),
        url('../fonts/lato-regular.woff2') format('woff2'),
@@ -19,7 +20,7 @@
 }
 
 @font-face {
-  font-style: italic;
+  font-style: $italic-style;
   font-family: "Lato";
   font-weight: 400;
   src: local("Lato-Italic"),
