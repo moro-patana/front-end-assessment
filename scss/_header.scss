@@ -1,7 +1,9 @@
+$padding: 4rem;
+
+
 header {
   text-align: center;
-  padding: 2rem;
-  margin: 2rem;
+  padding: $padding;
 }
 
 .container {
@@ -14,6 +16,7 @@ header {
     background-image: url("../img/bg_header_large.png");
     background-repeat: no-repeat;
     background-position: 546px 90%;
+    margin: auto;
   }
 
   main > header .container {
