@@ -1,34 +1,13 @@
 $padding: 2rem;
-
-
 header {
   text-align: center;
   padding: $padding;
   margin: $margin;
 }
-
+h1 {
+  text-align: center;
+}
 .container {
   max-width: 546px;
-}
-
-@media(min-width:1040px) {
-  main > header {
-    background-color: #F4F6F9;
-    background-image: url("../img/bg_header_large.png");
-    background-repeat: no-repeat;
-    background-position: 546px 90%;
-    margin: $margin;
-    justify-content: flex-start;
-  }
-
-  main > header .container {
-  max-width: $width-faux-column;
-  padding: 3rem;
-  margin: $margin;
-}
- .container > * {
-  max-width: 546px;
-}
-
 }
 
