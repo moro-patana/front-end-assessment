@@ -16,15 +16,14 @@ header {
     background-image: url("../img/bg_header_large.png");
     background-repeat: no-repeat;
     background-position: 546px 90%;
-    margin: auto;
+    margin: $margin;
     justify-content: flex-start;
   }
 
   main > header .container {
-  max-width: 1114px;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+  max-width: $width-faux-column;
   padding: 3rem;
+  margin: $margin;
 }
  .container > * {
   max-width: 546px;
