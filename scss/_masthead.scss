@@ -7,12 +7,41 @@
   line-height: 40px;
   color: $heading-color;
   margin-block-start: 8rem;
-
+}
+header {
+  justify-content: center;
 }
 
 
-.figure img {
-  display: none;
+@media(min-width: $masthead-content) {
+  main > header {
+    background-color: #F4F6F9;
+    background-image: url("../img/bg_header_medium.png");
+    background-repeat: no-repeat;
+    background-position: 546px 90%;
+    margin: $margin;
+    text-align: left;
+
+    .container {
+      max-width: $width-faux-column;
+      padding: 2rem;
+      margin: $margin;
+    }
+
+  }
+.container > * {
+  max-width: 546px;
 }
+
+  h1 {
+  width: 92px;
+  height: 32px;
+  text-align: left;
+}
+.app_download {
+  justify-content: flex-start;
+}
+}
+
 
 
