@@ -27,7 +27,9 @@ p {
 }
 article {
   margin: auto;
-  padding: 0;
+  padding: 1rem;
   background-color: $article-background-color;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
