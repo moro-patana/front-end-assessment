@@ -110,6 +110,12 @@ header {
   display: flex;
   flex-direction: column-reverse; }
 
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37px;
+  color: #333333; }
+
 .category {
   color: #00ADEE;
   text-transform: uppercase;
