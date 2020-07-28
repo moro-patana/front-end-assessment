@@ -1,24 +1,28 @@
 @import "variables";
 
-.masthead {
+@mixin text {
   font-size: 36px;
   font-style: normal;
   font-weight: bold;
   line-height: 40px;
-  color: $heading-color;
   margin-block-start: 8rem;
+
+}
+.masthead {
+  @include text;
+  color: $heading-color;
+
 }
 header {
   justify-content: center;
 }
-
 
 @media(min-width: $masthead-content) {
   main > header {
     background-color: #F4F6F9;
     background-image: url("../img/bg_header_large.png");
     background-repeat: no-repeat;
-    background-position: 546px 90%;
+    background-position: 546px 84%;
     margin: $margin;
     text-align: left;
 
