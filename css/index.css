@@ -40,35 +40,45 @@ p {
 header {
   text-align: center;
   padding: 2rem;
-  margin: 2rem; }
+  margin: auto; }
+
+h1 {
+  text-align: center; }
 
 .container {
   max-width: 546px; }
-
-@media (min-width: 1040px) {
-  main > header {
-    background-color: #F4F6F9;
-    background-image: url("../img/bg_header_large.png");
-    background-repeat: no-repeat;
-    background-position: 546px 90%; }
-  main > header .container {
-    max-width: 1114px;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    padding: 3rem; }
-  .container > * {
-    max-width: 546px; } }
 
 .masthead {
   font-size: 36px;
   font-style: normal;
   font-weight: bold;
   line-height: 40px;
-  color: #333333;
-  margin-block-start: 8rem; }
+  margin-block-start: 8rem;
+  color: #333333; }
 
-.figure img {
-  display: none; }
+header {
+  justify-content: center; }
+
+@media (min-width: 1114px) {
+  main > header {
+    background-color: #F4F6F9;
+    background-image: url("../img/bg_header_large.png");
+    background-repeat: no-repeat;
+    background-position: 546px 84%;
+    margin: auto;
+    text-align: left; }
+    main > header .container {
+      max-width: 1114px;
+      padding: 2rem;
+      margin: auto; }
+  .container > * {
+    max-width: 546px; }
+  h1 {
+    width: 92px;
+    height: 32px;
+    text-align: left; }
+  .app_download {
+    justify-content: flex-start; } }
 
 .heading_description {
   font-weight: 400;
