@@ -10,6 +10,13 @@
   flex-direction: column-reverse;
 }
 
+h3 {
+  font-size: 28px;
+  font-weight: $bold-size;
+  line-height: 37px;
+  color: $article-heading-color;
+}
+
 .category {
   color: #00ADEE;
     text-transform: uppercase;
