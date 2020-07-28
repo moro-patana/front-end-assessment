@@ -25,3 +25,9 @@ p {
   padding: 0;
   margin: 0;
 }
+article {
+  margin: auto;
+  padding: 0;
+  background-color: $article-background-color;
+  text-align: center;
+}
