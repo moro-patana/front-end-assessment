@@ -1,7 +1,10 @@
 @import "variables";
 
 .interface {
-  background-image: url("../img/bg_friendly_user_interface.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/bg_friendly_user_interface_medium.png");
   background-repeat: no-repeat;
 }
 
