@@ -39,9 +39,8 @@ p {
 
 article {
   margin: auto;
-  padding: 0;
-  background-color: #ffff;
-  text-align: center; }
+  padding: 1rem;
+  background-color: #ffff; }
 
 header {
   text-align: center;
@@ -103,7 +102,10 @@ header {
   margin-inline-start: 2rem; }
 
 .interface {
-  background-image: url("../img/bg_friendly_user_interface.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/bg_friendly_user_interface_medium.png");
   background-repeat: no-repeat; }
 
 .interface header {
@@ -116,9 +118,25 @@ h3 {
   line-height: 37px;
   color: #333333; }
 
+.interface_info {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4F4F4F; }
+
 .category {
   color: #00ADEE;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 21px;
   font-weight: bold; }
+
+.interface_link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE; }
