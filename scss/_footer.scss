@@ -1,0 +1,40 @@
+@import "variables";
+
+footer {
+  text-align: start;
+  background: #00ADEE;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  margin: auto;
+}
+footer p img {
+  padding-bottom: 2rem;
+}
+footer div a {
+  padding-right: 1rem;
+}
+footer nav {
+  padding-top: 2rem;
+}
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+footer nav li {
+  list-style: none;
+  margin-right: 2rem;
+}
+footer nav a {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  padding-block-end: 2rem;
+}
