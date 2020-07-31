@@ -37,3 +37,14 @@
   grid-column: 1/5;
   text-align: center;
 }
+
+@media(min-width: $masthead-content) {
+  .sponsors {
+    margin: $margin;
+  }
+  .sponsors p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
