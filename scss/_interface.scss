@@ -33,7 +33,7 @@ h4 {
 }
 
 .category {
-  color: #00ADEE;
+    color: #00ADEE;
     text-transform: uppercase;
     font-size: 16px;
     line-height: 21px;
@@ -47,6 +47,34 @@ h4 {
     line-height: 21px;
     color: #00ADEE;
 }
-// figure {
-//   text-align: center;
-// }
+
+@media(min-width: $masthead-content) {
+  .user_interface {
+    background-color: #F4F6F9;
+    background-image: url("../img/bg_friendly_user_interface.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 240px) 50%;
+    margin-left: $margin;
+    max-width: $width-faux-column;
+    padding-block-end: 180px;
+  }
+  .user_interface header {
+    text-align: start;
+    padding-block-start: 12rem;
+  }
+  .heading_info {
+    text-align: left;
+  }
+  .category {
+    text-align: start;
+  }
+  .user_interface > * {
+    max-width: 480px;
+  }
+  .paragraph_link {
+    padding-block-start: 2rem;
+    text-align: start;
+  }
+
+  }
+
