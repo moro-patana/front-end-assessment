@@ -17,5 +17,70 @@
 .features li {
     list-style: none;
     text-align: center;
-    padding-block-start: 2rem;
+    padding-block-start: 3rem;
+    padding-block-end: 3rem;
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+}
+.video {
+  background-image: url("../img/icon_video_blue.svg");
+}
+.notification {
+  background-image: url("../img/icon_bell_ringing_blue.svg");
+}
+.dedicated_area {
+  background-image: url("../img/icon_flag_blue.svg");
+}
+.scores {
+  background-image: url("../img/icon_tent_blue.svg");
+}
+.interviews {
+  background-image: url("../img/icon_hd_blue.svg");
+}
+.league_tables {
+  background-image: url("../img/icon_graph_blue.svg");
+}
+
+@media(min-width: $masthead-content) {
+  .features {
+    background-color: #00ADEE;
+  }
+  .features h4 {
+    color: #FAFAFA;
+  }
+  .features div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+.features li {
+  list-style: block;
+  color: #FAFAFA;
+  background-repeat: no-repeat;
+  background-position: 0 8%;
+  padding-block-start: 4rem;
+  text-align: start;
+}
+.video {
+  background-image: url("../img/icon_video_white.svg");
+}
+.notification {
+  background-image: url("../img/icon_bell_ringing_white.svg");
+}
+.dedicated_area {
+  background-image: url("../img/icon_flag_white.svg");
+}
+.scores {
+  background-image: url("../img/icon_tent_white.svg");
+}
+.interviews {
+  background-image: url("../img/icon_hd_white.svg");
+}
+.league_tables {
+  background-image: url("../img/icon_graph_white.svg");
+}
+
+
 }
