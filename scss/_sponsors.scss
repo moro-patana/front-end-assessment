@@ -1,6 +1,6 @@
 @import "variables";
 .sponsors {
-  background-color: #FAFAFA;
+  background-color: $article-background-color;
   text-align: center;
 }
 .sponsors h4 {
@@ -9,7 +9,7 @@
   font-size: 28px;
   line-height: 37px;
   text-align: center;
-  color: #333333;
+  color: $article-heading-color;
 }
 .sponsors p {
   display: grid;

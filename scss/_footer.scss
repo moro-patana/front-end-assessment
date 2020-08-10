@@ -2,7 +2,7 @@
 
 footer {
   text-align: start;
-  background: #00ADEE;
+  background: $features-bg-color;
   padding-top: 3rem;
   padding-bottom: 3rem;
   padding-left: 1rem;
@@ -28,11 +28,11 @@ footer nav li {
 }
 footer nav a {
   font-family: Lato;
-  font-style: normal;
-  font-weight: bold;
+  font-style: $normal-style;
+  font-weight: $bold-size;
   font-size: 16px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: $article-background-color;
   text-decoration: none;
   justify-content: flex-start;
   padding-top: 2rem;

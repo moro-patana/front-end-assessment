@@ -45,12 +45,12 @@ h4 {
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
-    color: #00ADEE;
+    color: $features-bg-color;
 }
 
 @media(min-width: $masthead-content) {
   .user_interface {
-    background-color: #F4F6F9;
+    background-color: $primary-color;
     background-image: url("../img/bg_friendly_user_interface.png");
     background-repeat: no-repeat;
     background-position: calc(50% + 240px) 50%;

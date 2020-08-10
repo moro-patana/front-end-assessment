@@ -1,6 +1,6 @@
 @import "variables";
 .features {
-    background-color: #FAFAFA;
+    background-color:$article-background-color;
 }
 .features header {
     font-style: $normal-style;
@@ -8,7 +8,7 @@
     font-size: 28px;
     line-height: 37px;
     text-align: center;
-    color: #333333;
+    color: $heading-color;
 }
 .features div ul {
     display: flex;
@@ -43,13 +43,13 @@
 
 @media(min-width: $masthead-content) {
   .features {
-    background-color: #00ADEE;
+    background-color: $features-bg-color;
     margin: $margin;
     padding-left: 4rem;
     padding-right: 4rem;
   }
   .features h4 {
-    color: #FAFAFA;
+    color: $article-background-color;
   }
   .features div ul {
     display: grid;
@@ -60,7 +60,7 @@
 }
 .features li {
   list-style: block;
-  color: #FAFAFA;
+  color: $article-background-color;
   background-repeat: no-repeat;
   background-position: 0 8%;
   padding-block-start: 4rem;
