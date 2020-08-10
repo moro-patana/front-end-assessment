@@ -44,6 +44,9 @@
 @media(min-width: $masthead-content) {
   .features {
     background-color: #00ADEE;
+    margin: $margin;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .features h4 {
     color: #FAFAFA;
