@@ -38,3 +38,18 @@ footer nav a {
   padding-top: 2rem;
   padding-block-end: 2rem;
 }
+
+@media(min-width: $masthead-content) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  div {
+    order: 3;
+    padding-top: 0;
+  }
+  footer nav ul {
+    padding-block-start: 0;
+  }
+}
