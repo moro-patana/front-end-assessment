@@ -42,7 +42,7 @@ article {
   padding: 1rem;
   background-color: #ffff; }
 
-header {
+main > header {
   text-align: center;
   padding: 2rem;
   margin: auto; }
@@ -69,7 +69,7 @@ header {
     background-color: #F4F6F9;
     background-image: url("../img/bg_header_large.png");
     background-repeat: no-repeat;
-    background-position: 665px 116%;
+    background-position: 665px 83%;
     margin: auto;
     text-align: left; }
     main > header .container {
@@ -145,6 +145,28 @@ h4 {
   line-height: 21px;
   color: #00ADEE; }
 
+@media (min-width: 1114px) {
+  .user_interface {
+    background-color: #F4F6F9;
+    background-image: url("../img/bg_friendly_user_interface.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 240px) 50%;
+    margin-left: auto;
+    max-width: 1114px;
+    padding-block-end: 180px; }
+  .user_interface header {
+    text-align: start;
+    padding-block-start: 12rem; }
+  .heading_info {
+    text-align: left; }
+  .category {
+    text-align: start; }
+  .user_interface > * {
+    max-width: 480px; }
+  .paragraph_link {
+    padding-block-start: 2rem;
+    text-align: start; } }
+
 .features {
   background-color: #FAFAFA; }
 
@@ -163,7 +185,59 @@ h4 {
 .features li {
   list-style: none;
   text-align: center;
-  padding-block-start: 2rem; }
+  padding-block-start: 3rem;
+  padding-block-end: 3rem;
+  background-repeat: no-repeat;
+  background-position: 50% 5%; }
+
+.video {
+  background-image: url("../img/icon_video_blue.svg"); }
+
+.notification {
+  background-image: url("../img/icon_bell_ringing_blue.svg"); }
+
+.dedicated_area {
+  background-image: url("../img/icon_flag_blue.svg"); }
+
+.scores {
+  background-image: url("../img/icon_tent_blue.svg"); }
+
+.interviews {
+  background-image: url("../img/icon_hd_blue.svg"); }
+
+.league_tables {
+  background-image: url("../img/icon_graph_blue.svg"); }
+
+@media (min-width: 1114px) {
+  .features {
+    background-color: #00ADEE; }
+  .features h4 {
+    color: #FAFAFA; }
+  .features div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem; }
+  .features li {
+    list-style: block;
+    color: #FAFAFA;
+    background-repeat: no-repeat;
+    background-position: 0 8%;
+    padding-block-start: 4rem;
+    text-align: start; }
+  .video {
+    background-image: url("../img/icon_video_white.svg"); }
+  .notification {
+    background-image: url("../img/icon_bell_ringing_white.svg"); }
+  .dedicated_area {
+    background-image: url("../img/icon_flag_white.svg"); }
+  .scores {
+    background-image: url("../img/icon_tent_white.svg"); }
+  .interviews {
+    background-image: url("../img/icon_hd_white.svg"); }
+  .league_tables {
+    background-image: url("../img/icon_graph_white.svg"); } }
 
 .sponsors {
   background-color: #FAFAFA;
@@ -203,6 +277,14 @@ h4 {
   grid-column: 1/5;
   text-align: center; }
 
+@media (min-width: 1114px) {
+  .sponsors {
+    margin: auto; }
+  .sponsors p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }
+
 footer {
   text-align: start;
   background: #00ADEE;
@@ -240,3 +322,14 @@ footer nav a {
   justify-content: flex-start;
   padding-top: 2rem;
   padding-block-end: 2rem; }
+
+@media (min-width: 1114px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  div {
+    order: 3;
+    padding-top: 0; }
+  footer nav ul {
+    padding-block-start: 0; } }
