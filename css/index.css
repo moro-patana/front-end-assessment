@@ -42,6 +42,10 @@ article {
   padding: 1rem;
   background-color: #ffff; }
 
+body > header {
+  text-align: center;
+  margin: auto; }
+
 main > header {
   text-align: center;
   padding: 2rem;
@@ -58,30 +62,32 @@ h1 {
   font-style: normal;
   font-weight: bold;
   line-height: 40px;
-  margin-block-start: 8rem;
+  margin-block-start: 3rem;
   color: #333333; }
 
 header {
   justify-content: center; }
 
 @media (min-width: 1114px) {
+  body > header {
+    position: absolute;
+    left: 50%; }
+  body > header h1 {
+    margin-left: calc(50% - 1114px); }
   main > header {
     background-color: #F4F6F9;
     background-image: url("../img/bg_header_large.png");
     background-repeat: no-repeat;
     background-position: 665px 83%;
     margin: auto;
-    text-align: left; }
+    text-align: left;
+    padding-bottom: 10rem; }
     main > header .container {
       max-width: 1114px;
       padding: 2rem;
       margin: auto; }
   .container > * {
     max-width: 546px; }
-  h1 {
-    width: 92px;
-    height: 32px;
-    text-align: left; }
   .app_download {
     justify-content: flex-start; } }
 
@@ -223,7 +229,7 @@ h4 {
     column-gap: 2rem;
     row-gap: 2rem; }
   .features li {
-    list-style: block;
+    list-style: inherit;
     color: #ffff;
     background-repeat: no-repeat;
     background-position: 0 8%;
