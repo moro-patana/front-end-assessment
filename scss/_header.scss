@@ -1,4 +1,8 @@
 $padding: 2rem;
+body > header {
+  text-align: center;
+  margin: auto;
+}
 main > header {
   text-align: center;
   padding: $padding;
