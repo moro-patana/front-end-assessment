@@ -41,6 +41,7 @@
 @media(min-width: $masthead-content) {
   .sponsors {
     margin: $margin;
+    padding-block-end: 3rem;
   }
   .sponsors p {
     display: flex;
